@@ -55,6 +55,9 @@ h1, h2 {
 	margin: 0 auto;
 	padding: 60px 0;
 }
+.content-wrap a {
+	text-decoration: none;
+}
 h3 {
 	margin-bottom: 0;
 }
@@ -75,6 +78,9 @@ h3 {
 	border-bottom: none;
 
 }
+.text-color {
+	color: #FFE66D;
+}
 
 
 /* Profile
@@ -83,8 +89,6 @@ header {
 	background: #2F3061;
 	color: #F7FFF7;
 }
-
-
 
 
 /* Projects
@@ -126,8 +130,11 @@ header {
 ------------------------------------ */
 .work-experiences {
 	background: #1E90FF;
+	color: #F7FFF7;
 }
-
+.work-experiences a {
+	text-decoration: none;
+}
 
 
 /* Education
@@ -137,6 +144,11 @@ header {
 	background-size: cover;
 	background-position: top right;
 	padding-bottom: 100px;
+	color: #2F3061;
+}
+.education a {
+	text-decoration: none;
+	color: #F7FFF7;
 }
 .education p {
 	width: 60%;
@@ -150,6 +162,9 @@ header {
 	background: #5F9EA0;
 	color: #F7FFF7;
 }
+.volunteering a {
+	text-decoration: none;
+}
 
 
 
@@ -158,6 +173,9 @@ header {
 footer {
 	background: #343434;
 	color: #F7FFF7;
+}
+footer a {
+	text-decoration: none;
 }
 .contact-list {
 	list-style-type: none;
